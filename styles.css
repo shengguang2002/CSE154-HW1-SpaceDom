@@ -1,0 +1,164 @@
+/*
+  Name: Hanyang Yu
+  Date: Apirl 13, 2023
+  Section: CSE 154 AF
+  TA: Donovan Kong && Sonia Saitawdekar
+  This is the styles.css page for my space.html including background and fonts.
+  It lays up different sections in space.html.
+*/
+body {
+    background-image: url("img/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+header {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #E0DBD7;
+}
+
+header h1 {
+    text-transform: uppercase;
+    font-size: 120px;
+    margin-bottom: 0px;
+    text-shadow: 20px 15px 20px #551755;
+    font-family: 'Coda Caption', sans-serif;
+}
+
+header blockquote {
+    margin-top: 0px;
+    font-size: 22px;
+}
+
+footer {
+    background-color: #E0DBD7;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    width: 80%;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 35px;
+    text-decoration: underline;
+}
+
+#intro, #facts {
+    background-color: #E0DBD7;
+    padding: 30px 0;
+    border-top: 15px solid #551755;
+    border-bottom: 15px solid #551755;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#intro {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#intro p {
+    font-size: 20px;
+}
+
+#intro img {
+    width: 25vw;
+    height: 100%;
+    border-radius: 10%;
+    margin: 10px 50px;
+}
+
+#facts p {
+    font-size: 25px;
+}
+
+#facts li {
+    font-size: 20px;
+}
+
+a:link {
+    color: #FFA605;
+}
+
+a:visited {
+    color: #1B505F;
+}
+
+#jokes {
+    text-align: center;
+  }
+  
+  #jokes h2 {
+    color: #E0DBD7;
+  }
+  
+  #jokes > p {
+    color: #E0DBD7;
+  }
+  
+  #jokeCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  #jokeCards article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    height: 400px;
+    width: 300px;
+    background-color: #9B590D;
+    opacity: 0.8;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+#jokeCards article img {
+    height: 150px;
+    width: 150px;
+}
+
+#jokeCards article hr {
+    width: 60%;
+}
+
+#jokeCards article p {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+#jokeCards article p span {
+    font-size: 28px;
+    color: #E0DBD7;
+}
+
+article p.answer {
+    font-size: 24px;
+    color: #191818;
+    visibility: hidden;
+}
+
+article:hover .answer {
+    visibility: visible;
+  }
+.answer span{
+    visibility: visible;
+}

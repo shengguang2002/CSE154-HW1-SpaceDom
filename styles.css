@@ -58,11 +58,9 @@ section h2 {
 
 #intro, #facts {
     background-color: #E0DBD7;
-    padding: 30px 0;
+    padding: 30px;
     border-top: 15px solid #551755;
     border-bottom: 15px solid #551755;
-    margin-top: 30px;
-    margin-bottom: 30px;
 }
 
 #intro {
@@ -79,7 +77,7 @@ section h2 {
     width: 25vw;
     height: 100%;
     border-radius: 10%;
-    margin: 10px 50px;
+    margin: 10px 50px 10px 10px;
 }
 
 #facts p {
@@ -100,24 +98,24 @@ a:visited {
 
 #jokes {
     text-align: center;
-  }
-  
-  #jokes h2 {
+}
+
+#jokes h2 {
     color: #E0DBD7;
-  }
-  
-  #jokes > p {
+}
+
+#jokes > p {
     color: #E0DBD7;
-  }
-  
-  #jokeCards {
+}
+
+#jokeCards {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-  }
-  
-  #jokeCards article {
+}
+
+#jokeCards article {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -129,11 +127,12 @@ a:visited {
     opacity: 0.8;
     padding: 20px;
     box-sizing: border-box;
-  }
+}
 
 #jokeCards article img {
     height: 150px;
     width: 150px;
+    vertical-align: top;
 }
 
 #jokeCards article hr {

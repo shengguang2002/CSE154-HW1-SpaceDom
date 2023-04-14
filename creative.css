@@ -5,3 +5,34 @@
   TA: Donovan Kong && Sonia Saitawdekar
   This is the creative.css page for my space.html.
 */
+#creative {
+  background-color: #E0E5DF;
+  padding: 30px;
+  border-top: 15px solid #7B8B6f;
+  border-bottom: 15px solid #7B8B6f;
+  text-align: center;
+}
+
+#creative img{
+  height: 150px;
+  width: 150px;
+}
+
+#creative h3{
+  margin-top: 20px;
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+#creative blockquote p{
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+#creative > p{
+  font-size: 10px;
+}
+
+#creative footer{
+  background-color: #9CA8B8;
+}

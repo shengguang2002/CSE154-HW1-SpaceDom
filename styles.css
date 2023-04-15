@@ -63,7 +63,7 @@ section h2 {
     border-bottom: 15px solid #551755;
 }
 
-#intro {
+#intro section {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -141,15 +141,16 @@ a:visited {
 
 #jokeCards article p {
     margin-top: 20px;
+    text-align: center;
     font-size: 24px;
 }
 
-#jokeCards article p span {
+.abbrv {
     font-size: 28px;
     color: #E0DBD7;
 }
 
-article p.answer {
+.answer {
     font-size: 24px;
     color: #191818;
     visibility: hidden;
@@ -158,6 +159,3 @@ article p.answer {
 article:hover .answer {
     visibility: visible;
   }
-.answer span{
-    visibility: visible;
-}

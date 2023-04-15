@@ -4,6 +4,7 @@
   Section: CSE 154 AF
   TA: Donovan Kong && Sonia Saitawdekar
   This is the creative.css page for my space.html.
+  It serves as a stylesheet for the seciton "Why we care about Space" in space.html
 */
 #creative {
   background-color: #E0E5DF;
@@ -18,15 +19,13 @@
   width: 150px;
 }
 
-#creative h3 {
-  margin-top: 20px;
-  font-size: 30px;
+#creative h3, #creative blockquote p {
+  font-size: 36px;
   text-decoration: underline;
 }
 
-#creative blockquote p {
+#creative blockquote p, #creative h3, #creative blockquote p {
   margin-top: 20px;
-  font-size: 24px;
 }
 
 #creative > p {
@@ -35,4 +34,12 @@
 
 #creative footer {
   background-color: #9CA8B8;
+}
+
+#creative ol {
+  text-align: left  ;
+}
+
+#creative blockquote p {
+  font-size: 24px;
 }

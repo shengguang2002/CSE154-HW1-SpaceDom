@@ -13,26 +13,26 @@
   text-align: center;
 }
 
-#creative img{
+#creative img {
   height: 150px;
   width: 150px;
 }
 
-#creative h3{
+#creative h3 {
   margin-top: 20px;
   font-size: 30px;
   text-decoration: underline;
 }
 
-#creative blockquote p{
+#creative blockquote p {
   margin-top: 20px;
   font-size: 24px;
 }
 
-#creative > p{
+#creative > p {
   font-size: 10px;
 }
 
-#creative footer{
+#creative footer {
   background-color: #9CA8B8;
 }

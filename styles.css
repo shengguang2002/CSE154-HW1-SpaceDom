@@ -39,6 +39,9 @@ header blockquote {
 footer {
   background-color: #E0DBD7;
   width: 100%;
+}
+
+footer p {
   padding: 20px;
   text-align: center;
 }
@@ -108,14 +111,14 @@ a:visited {
   color: #E0DBD7;
 }
 
-#jokeCards {
+#joke-cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
 }
 
-#jokeCards article {
+#joke-cards article {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -129,17 +132,17 @@ a:visited {
   box-sizing: border-box;
 }
 
-#jokeCards article img {
+#joke-cards article img {
   height: 150px;
   width: 150px;
   vertical-align: top;
 }
 
-#jokeCards article hr {
+#joke-cards article hr {
   width: 60%;
 }
 
-#jokeCards article p {
+#joke-cards article p {
   margin-top: 20px;
   text-align: center;
   font-size: 24px;

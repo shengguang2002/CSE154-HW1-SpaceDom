@@ -22,9 +22,6 @@
 #creative h3, #creative blockquote p {
   font-size: 36px;
   text-decoration: underline;
-}
-
-#creative blockquote p, #creative h3, #creative blockquote p {
   margin-top: 20px;
 }
 
@@ -37,7 +34,7 @@
 }
 
 #creative ol {
-  text-align: left  ;
+  text-align: left;
 }
 
 #creative blockquote p {
